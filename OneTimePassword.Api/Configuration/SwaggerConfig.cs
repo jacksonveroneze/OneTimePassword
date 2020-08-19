@@ -13,8 +13,8 @@ namespace OneTimePassword.Api.Configuration
             {
                 c.SwaggerDoc("v1", new OpenApiInfo()
                 {
-                    Title = "NerdStore Enterprise Identity API",
-                    Description = "NerdStore Enterprise Identity API.",
+                    Title = "One Time Password",
+                    Description = "One Time Password.",
                     Contact = new OpenApiContact() { Name = "Jackson Veroneze", Email = "jackson@jacksonveroneze.com" },
                     License = new OpenApiLicense() { Name = "MIT", Url = new Uri("https://opensource.org/licenses/MIT") }
                 });
