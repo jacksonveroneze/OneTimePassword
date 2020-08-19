@@ -11,13 +11,6 @@ namespace OneTimePassword.Api.Configuration
     {
         public static IServiceCollection AddApiConfiguration(this IServiceCollection services, IConfiguration configuration)
         {
-
-            //services.AddTransient<IJWTService, JWTService>();
-
-            //services.AddTransient<IEmailSender, EmailSender>();
-
-            //services.Configure<EmailSettings>(configuration.GetSection("EmailSettings"));
-
             services.AddMemoryCache();
 
             services.AddControllers();
