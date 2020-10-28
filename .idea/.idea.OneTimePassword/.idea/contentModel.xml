@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/.cache/JetBrains/Rider2020.2/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.cache/JetBrains/Rider2020.2/resharper-host/local/Transient/Rider/v202/SolutionCaches/_OneTimePassword.218899818.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="OneTimePassword.Api" t="IncludeRecursive">
+        <e p=".dockerignore" t="Include" />
+        <e p="Configuration" t="Include">
+          <e p="ApiConfig.cs" t="Include" />
+          <e p="SwaggerConfig.cs" t="Include" />
+        </e>
+        <e p="Controllers" t="Include">
+          <e p="TotpController.cs" t="Include" />
+        </e>
+        <e p="Dockerfile" t="Include" />
+        <e p="Middlewares" t="Include">
+          <e p="RequestLoggingMiddleware.cs" t="Include" />
+        </e>
+        <e p="Models" t="Include">
+          <e p="RequestNewTotp.cs" t="Include" />
+          <e p="RequestValidateTotp.cs" t="Include" />
+          <e p="ResultNewTotp.cs" t="Include" />
+          <e p="ResultValidateTotp.cs" t="Include" />
+        </e>
+        <e p="OneTimePassword.Api.csproj" t="IncludeRecursive" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Services" t="Include">
+          <e p="ITotpService.cs" t="Include" />
+          <e p="TotpService.cs" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="docker-compose.yml" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="OneTimePassword.Api.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="OneTimePassword.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
