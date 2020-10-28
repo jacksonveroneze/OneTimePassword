@@ -1,4 +1,4 @@
-![Image](https://github.com/jacksonveroneze/OneTimePassword/blob/master/otp.png)
+![Image](https://github.com/jacksonveroneze/OneTimePassword/blob/master/assets/otp.png)
 
 ## One Time Password
 
@@ -20,17 +20,15 @@ Projeto desenvolvido com o objetivo de estuda OTP. O mesmo gera e valida tokens.
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-- [Expo](https://expo.io/)
-- [Node.js](https://nodejs.org/en/)
-- [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
+- [C# 8.0](https://docs.microsoft.com/pt-br/dotnet/csharp/)
+- [ASP.NET Core 3.1](https://dotnet.microsoft.com/)
+- [ASP.NET WebApi Core 3.1](https://dotnet.microsoft.com/apps/aspnet)
+- [Refit](https://github.com/reactiveui/refit)
+- [Serilog](https://serilog.net/)
+- [Docker](https://www.docker.com/)
 
+### ✅ Contribuição
 
-### Contribuição
+### ✅ Contribuição
 
-
-### Contribuição
-
-
-### Licença
+### ✅ Licença
