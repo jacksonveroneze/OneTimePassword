@@ -1,5 +1,3 @@
-using System;
-
 namespace OneTimePassword.Api.Models
 {
     public class RequestNewTotp

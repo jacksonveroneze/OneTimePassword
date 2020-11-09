@@ -6,7 +6,7 @@ using Serilog.Sinks.SystemConsole.Themes;
 
 namespace OneTimePassword.Api
 {
-    public class Program
+    public static class Program
     {
         public static void Main(string[] args)
         {

@@ -1,8 +1,6 @@
-﻿using System;
-using System.Net.Mime;
+﻿using System.Net.Mime;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Caching.Memory;
 using Microsoft.Extensions.Logging;
 using OneTimePassword.Api.Models;
 using OtpNet;
@@ -14,7 +12,6 @@ namespace OneTimePassword.Api.Controllers
     public class TotpController : ControllerBase
     {
         private readonly ILogger<TotpController> _logger;
-        private readonly IMemoryCache _cache;
 
         //
         // Summary:
@@ -24,13 +21,9 @@ namespace OneTimePassword.Api.Controllers
         //   logger:
         //     The logger param.
         //
-        //   cache:
-        //     The cache param.
-        //
-        public TotpController(ILogger<TotpController> logger, IMemoryCache cache)
+        public TotpController(ILogger<TotpController> logger)
         {
             _logger = logger;
-            _cache = cache;
         }
 
         //
