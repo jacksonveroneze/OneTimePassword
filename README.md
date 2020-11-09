@@ -13,14 +13,14 @@ Projeto desenvolvido com o objetivo de estudar OTP. O mesmo gera e valida tokens
 Tabela de conteúdos
 =================
 <!--ts-->
-   * [Sobre](#Sobre)
+   * [Sobre](#sobre)
    * [Tabela de Conteudo](#tabela-de-conteudo)
-   * [Status do Projeto](#Status do Projeto)
-   * [Features](#Features)
-   * [Demonstração da aplicação](#Demonstração da aplicação)
+   * [Status do Projeto](#status-do-projeto)
+   * [Features](#features)
+   * [Demonstração da aplicação](#demonstracao-da-aplicação)
    * [Tecnologias](#tecnologias)
-   * [Contribuição](#Contribuição)
-   * [Licença](#Licença)
+   * [Contribuição](#contribuição)
+   * [Licença](#licença)
 <!--te-->
 
 ## Status do Projeto
