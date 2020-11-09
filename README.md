@@ -27,15 +27,16 @@ Tabela de conteúdos
 
 🚧  Em construção...  🚧
 
-## Features
+## ✅ Features
 
 - [x] Geração de token
 - [x] Validação de token
 - [ ] Configurar tempo de validade do token
 - [ ] Configurar tamanho do token
 
-## Demonstração da aplicação
+## 🎲 Demonstração da aplicação
 
+### Gerar token
 ```shell
 curl --location --request POST 'http://onetimepassword-env-1.eba-ajm2bkfv.sa-east-1.elasticbeanstalk.com/api/v1/totp/new' \
 --header 'Accept: application/json' \
@@ -43,7 +44,10 @@ curl --location --request POST 'http://onetimepassword-env-1.eba-ajm2bkfv.sa-eas
 --data-raw '{
     "time": 1
 }'
+````
 
+### Validar token
+```shell
 curl --location --request POST 'http://onetimepassword-env-1.eba-ajm2bkfv.sa-east-1.elasticbeanstalk.com/api/v1/totp/validate' \
 --header 'Accept: application/json' \
 --header 'Content-Type: application/json' \
