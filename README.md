@@ -1,4 +1,4 @@
-![Image](https://raw.githubusercontent.com/jacksonveroneze/OneTimePassword/main/assets/otp.png)
+![Image](https://github.com/jacksonveroneze/StockService/blob/develop/assets/stock.png)
 
 # One Time Password
 
